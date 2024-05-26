@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.book-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 20px;
+  max-width: 200px;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.book-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.book-card h2 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.book-card h3 {
+  font-size: 1em;
+  color: #555;
+}
+
+.book-detail {
+  padding: 20px;
+  text-align: left;
+}
+
+.book-detail img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.filters {
+  margin: 20px;
+}
+
+.filters input {
+  margin: 5px;
+  padding: 10px;
+  font-size: 1em;
+}
